@@ -30,7 +30,6 @@ button {
 /** Navigation Bar**/
 .navbar{
     background-color: #1F2937;
-    color: wheat;
     height: 60px;
 }
 .navbar a{
@@ -181,3 +180,13 @@ button {
     font-size: 18px;
    font-weight: 100;
  }
+
+  /** Footer **/
+.footer{
+    background-color: #1F2937;
+    height: 70px;  
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
