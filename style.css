@@ -22,7 +22,7 @@ button {
     margin: 8px auto;
 }
 .container{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 60px;
 }
@@ -59,7 +59,7 @@ button {
 /** Header **/
 .header{
     background-color: #1F2937;
-    min-height: 250px;
+    height: 350px;
     padding: 40px;
 }
 
@@ -89,4 +89,40 @@ button {
     flex: 1;
     max-width: 400px;
     height: auto;
+ }
+
+ /** Images Section **/
+ .images-section{
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    color: #3c4c62;
+    font-size: 18px;
+ }
+ 
+ .images-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+ }
+ .images-section .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+ }
+
+ .images div{
+    width: 180px;
+ }
+ .images img{
+    border: 4px solid #4a8bf4;
+    border-radius: 8px;
+ }
+ .images-section h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 20px;
  }
