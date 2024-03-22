@@ -98,6 +98,7 @@ button {
     text-align: center;
     color: #3c4c62;
     font-size: 18px;
+    height: 400px;
  }
  
  .images-section .container{
@@ -126,3 +127,27 @@ button {
     color: #1F2937;
     margin-bottom: 20px;
  }
+
+ /** Quote Section **/
+.quote{
+   height: 350px;
+   background-color: #E5E7EB;
+   padding: 80px 5px;
+}
+.quote .container{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 25px;
+}
+.quote p{
+    font-size: 36px;
+   font-style: italic;
+  color: #1F2937;
+  align-self: center;
+}
+.quote h3{
+    color: black;
+   align-self:flex-end;
+   margin-right: ;
+}
